@@ -26,7 +26,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+  
+  <repository>
+    <id>sasi-alla</id>
+    <url>https://pkgs.dev.azure.com/sasi-alla/_packaging/sasi-alla/maven/v1</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>
+  
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
